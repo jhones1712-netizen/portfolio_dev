@@ -1,0 +1,23 @@
+/* animations.css */
+/* Animaciones: hero glow, ornament hover shine opcional */
+
+@keyframes heroGlowPulse {
+  0% {
+    transform: scale(0.98);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.02);
+    opacity: 0.9;
+  }
+}
+
+/* Focus shimmer effect for gold frames (subtle) */
+@media (prefers-reduced-motion: no-preference) {
+  .card,
+  .skill-group,
+  .contact__card,
+  .modal__dialog {
+    position: relative;
+  }
+}
